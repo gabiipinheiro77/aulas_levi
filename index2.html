@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <button onclick="ocultar()">Ocultar</button>
+        <button onclick="mostrar()">Mostrar</button>
+         
+    <div id="meuBloco" style="display:none;">
+        <p>Meu Texto</p>
+</div>
+    </body>
+    <script>
+        function ocultar(){
+            const bloco = document.getElementById('meuBloco');
+            bloco.style.display = 'none';
+        }
+        function mostrar(){
+            const bloco = document.getElementById('meuBloco');
+            bloco.style.display = 'block';
+        }
+    </script>
+
+</html>
